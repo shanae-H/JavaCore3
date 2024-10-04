@@ -29,7 +29,9 @@ public class Task4 {
         System.out.println("\n\nRemove the duplicates from the array and print to screen");
         ArrayList<Integer> numbersList = new ArrayList<>(Arrays.asList(1, 1, 2, 3, 3, 3, 4, 5, 6, 6, 6, 7));
         System.out.println(numbersList);
-        ArrayList<Integer> uniqueNumbersList = numbersList.stream().distinct().collect(Collectors.toCollection(ArrayList::new));
+        ArrayList<Integer> uniqueNumbersList = numbersList.stream()
+                .distinct()
+                .collect(Collectors.toCollection(ArrayList::new));
         System.out.println("Duplicates removed. The new unique array of numbers is as follows "+ uniqueNumbersList);
 
         //Task 4 question 13
