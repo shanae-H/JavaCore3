@@ -1,4 +1,4 @@
-package Task1;
+package coretasks;
 
 import java.util.*;
 import java.util.stream.Collectors;
