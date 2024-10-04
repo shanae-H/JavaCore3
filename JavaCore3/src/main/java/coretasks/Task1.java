@@ -30,26 +30,5 @@ public class Task1 {
 
 
     }
-//    @Test
-//    public void printStreamToConsole () {
-//        Stream <Integer> stream = Stream.of(1,2,3,4,5,6,7,8,9);
-//        stream.forEach(System.out::println);
-//        Assert.assertNotNull(System.out,"Console is not null");
-//    }
- /*   @Test
-    public void printRandomNumbers(){
-//        Stream.generate(new Random()::nextInt)
-//                .limit(20)
-//                .forEach(System.out::println);
-
-
-//        Stream.generate(Math::random)
-//                .limit(20)
-//                .forEach(System.out::println);
-        List <Integer> randomNumbers = Stream.generate(new Random()::nextInt)
-                .limit(20).toList();
-        System.out.println(randomNumbers.toString());
-    }
-*/
 
 }

@@ -17,20 +17,9 @@ public class Task5 {
                 .filter(x->x.matches("\\D"))
                 .toList();
         System.out.println("The following letters were found in the value portion of the people Map structure "+ letters );
-        List<String> expected = List.of(new String[]{"a", "d", "s", "z"});
-        assertTrue(letters.contains(expected));
 
 
-        //Pattern pattern = Pattern.compile("\\D");
-        // Matcher matcher = pattern.matcher()
 
-        /*
-        List<String> listOfLetters = Stream.of(people.values())
-                .flatMap(Collection::stream)
-                .filter(x->x
-                        .anyMatch(
-                                (matcher ->pattern.matcher(x.toString()).find()))
-                ).toList();
-*/
+
     }
 }

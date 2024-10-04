@@ -34,8 +34,6 @@ public class Task4 {
                 .collect(Collectors.toCollection(ArrayList::new));
         System.out.println("Duplicates removed. The new unique array of numbers is as follows "+ uniqueNumbersList);
 
-        //Task 4 question 13
-        //Map<Integer,Integer> myCollection = Stream.of(numbersList).collect(Collectors.toMap());
 
 
     }
