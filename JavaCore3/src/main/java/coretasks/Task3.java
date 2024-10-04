@@ -52,7 +52,7 @@ public class Task3 {
         long numOfNamesWithA = memberNames.stream()
                 .filter(x->x.startsWith("A"))
                 .count();
-        System.out.println("There are "+ numOfNamesWithA+" names that begin with the letter A");
+        System.out.println("There are "+ numOfNamesWithA +" names that begin with the letter A");
 
         //Task 3 question 10
         String nameBeginsWithL = memberNames.stream()

@@ -14,7 +14,7 @@ public class Task4 {
 
         List<Integer> concatList = Stream.of(list1, list2, list3)
                 .flatMap(Collection::stream)
-                .collect(Collectors.toList());
+                .toList();
         System.out.println("The new concatenated list is as follows: "+ concatList);
 
         //Task 4 question 11 (part 2)
